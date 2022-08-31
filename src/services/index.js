@@ -138,7 +138,7 @@ export const getBirthdayMessage = () => {
       // 生日相关
       if (item.type === '生日') {
         // 获取周岁
-        const age = dayjs().diff(item.year + '-' + item.date, 'year');
+        const age = dayjs().diff(item.year + '-' + item.date, 'year')+1;
   
         if (item.diffDay === 0) {
           message = `今天是 ${item.name} 的 ${age ? age + '岁' : ''} 生日哦，祝${item.name}生日快乐！`
