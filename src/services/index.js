@@ -153,7 +153,7 @@ export const getBirthdayMessage = () => {
           message = `今天是 ${item.name} 哦，要开心！`
         } else {
           message = `距离 ${item.name} 还有${item.diffDay}天`
-          if((String)(${item.name}) === '考研') (String)(${item.name}).style.fontSize = "20px"
+          
         }
       }
 
