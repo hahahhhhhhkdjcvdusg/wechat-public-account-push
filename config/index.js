@@ -53,7 +53,7 @@ export const config = {
     FESTIVALS: [
       {"type": "节日", "name": "周年纪念日", "year": "2020", "date": "08-25"},
       {"type": "节日", "name": "考研", "year": "2022", "date": "12-24"},
-      {"type": "生日", "name": "宝宝", "year": "2002", "date": "03-15"},
+      {"type": "生日", "name": "宝宝", "year": "2001", "date": "03-15"},
      // {"type": "生日", "name": "自己", "year": "2021", "date": "11-21"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
