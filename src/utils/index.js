@@ -42,7 +42,7 @@ export const randomNum = (min, max) => {
  */
 export const sortBirthdayTime = (list) => {
   list.forEach(item => {
-    const diffDay = Math.ceil(dayjs(dayjs().format('YYYY') + '-' + item.date).diff(dayjs(), 'day', true)-1)
+    const diffDay = Math.ceil(dayjs(dayjs().format('YYYY') + '-' + item.date).diff(dayjs(), 'day', true))
     if (diffDay >= 0) {
       item['diffDay'] = diffDay
     } else {
